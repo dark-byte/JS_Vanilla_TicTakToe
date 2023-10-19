@@ -1,0 +1,36 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    display: flex;
+    width: 600px;
+    height: 600px;
+}
+
+.col{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #000;
+    background-color: #a3c3ff;
+    cursor: pointer;
+}
+
+.cross{
+    background-color: rgb(255, 180, 180);
+    background-image: url("cross-svgrepo-com.svg");
+    background-position: center;
+    background-size: contain;
+}
+
+.circle{
+    background-color: rgb(189, 255, 180);
+    background-image: url("./circle-svgrepo-com.svg");
+    background-position: center;
+    background-size: contain;
+}
